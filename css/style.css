@@ -1,9 +1,69 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
-  background-color: #ffda76;
+  background-color: #1A6DD9;
   color: #201e43;
 }
 
+
+
 header {
+  width: 100%;
+  background-color: #AEDFF2;
   text-align: center;
-  margin-top: 300px;
+  padding: 100px;
+  border-bottom-style:inset
 }
+
+nav {  
+text-align: center;
+}
+
+nav ul li {
+  display: inline;
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  align-items: baseline;
+}
+
+header h1 {
+  margin-top: 20px;
+}
+.bio-heading {
+  margin-top: 30px;
+  text-align: center;
+  color: white;
+}
+.bio {
+  margin: auto;
+  padding: 40px;
+  width: 80%;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  line-height: 2.0rem;
+  color:azure;
+}
+.project-title, .project-heading { 
+  background-color: #439FD9;
+  text-align: center;
+  color: azure;
+}
+.projects {
+  display:flex; 
+  justify-content: space-evenly;
+  background-color: #439FD9;
+  color:azure;
+}
+
+
+
+  a :hover {
+    background-color: antiquewhite;
+    opacity: 5%;
+  }
+
