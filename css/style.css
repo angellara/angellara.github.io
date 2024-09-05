@@ -53,6 +53,10 @@
   .content {
       background-color: #025259;
   }
+
+  .contact-me{
+    order: 2;
+  }
   }
 
 
@@ -73,7 +77,7 @@
   }
 
   .contact-me {
-    order: 1;
+    order: 2;
   }
 }
 
