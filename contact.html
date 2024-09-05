@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-0" />
+    <meta name="viewport" content="width-device-width, initial-scale=1.0, maximum-scale=1.0" />
+    <title>Angel - Web developer</title>
+    <link rel="stylesheet" href="/css/form.css" />
+</head>
+<body>
+
+<header class="form-header">
+    <h1>Contact Me</h1>
+    <p><em>Want to reach out? Fill out this form.</em></p>
+</header>
+
+<form action="thank-you.html" method="get" class="contact-form">
+
+<div class="form-row">
+    <label for="full-name">Name</label>
+    <input id="full-name" name="full-name" type="text">
+</div> 
+<div class="form-row">
+    <label for="email">Email</label>
+    <input id="email" name="email" type="email" placeholder="joe@email.com">
+</div>
+
+<fieldset class="legacy-form-row">
+<legend>Type of Project</legend>
+<input id="grapgic-design" type="radio" value="grapgic-design">
+<label for="grapgic-design" class="radio-label">Graphic Design</label>
+<input id="app-design" type="radio" value="app-design">
+<label for="app-design" class="radio-label">App Development</label><br/>
+<input id="tech-support" type="radio" value="tech-support" checked>
+<label for="tech-support" class="radio-label">Tech Support</label>
+</fieldset>
+
+<div class="form-row">
+<label for="timeframe">Timeframe</label>
+<select id='timeframe' name='timeframe'>
+<option value="24hrs">24 Hours</option>
+<option value="1-week">One Week</option>
+<option value="2-weeks">Two Weeks</option>
+<option value="1-month">One Month</option>
+</select>
+</div>
+
+<div class="form-row">
+
+<label for="details">Project Details</label>
+<textarea id="details" name="details"></textarea>
+<div class="instructions">Describe your project in a few words.</div>
+
+</div>
+  
+<div class="form-row">
+    <button>Submit</button>
+</div>
+</form>
+</body>
+
+
+</html>

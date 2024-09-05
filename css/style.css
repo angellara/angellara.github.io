@@ -9,6 +9,7 @@
 .page {
   display: flex;
   flex-wrap: wrap;
+  background-color:  #025259; 
 }
 
 .section {
@@ -46,7 +47,7 @@
 /* Mobile Styles */
 @media only screen and (max-width: 400px) {
   body {
-    background-color: #025259 
+    background-color: #025259; 
   }
 
   .content {
@@ -57,13 +58,23 @@
 
 /* Tablet Styles */
 @media only screen and (min-width: 401px) and (max-width: 960px) {
+  body {
+    background-color: #025259 
+  }
   .sign-up,
   .feature-1,
   .feature-2,
   .feature-3 {
     width: 50%;
   }
+  .content {
+    background-color: #025259;
+    color: #fff;
+  }
 
+  .contact-me {
+    order: 1;
+  }
 }
 
 /* Desktop Styles */
@@ -86,14 +97,14 @@
   }
   .contact-me {
       height: 100px;
-      order: 1;
+      order: 2;
       margin-bottom: 50px;
   }
 
-  .content {
+  .section .content .project-title{
       background-color: #025259;
-      color: #fff;
-      
+      color: #FFFfff;
+  
   }
   }
 
@@ -120,6 +131,7 @@
 
   .project-title {
       font-size: 25px;
+      color: #FFFfff;
   }
 
   img {
@@ -130,3 +142,27 @@
     opacity:1.0;
     filter:alpha(opacity=100); 
   }
+
+button {
+  width: 200px;
+  height: 50px;
+  border-radius: 10px;
+  border: 1px solid cornsilk;
+  background-color: #025259;
+}
+
+button a {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 26px;
+  text-decoration: none;
+  
+  color: #F29325;
+}
+
+
+.thank-you  {
+  width: 100%;
+ margin-top: 400px;
+ margin-left: 400px;
+
+}
